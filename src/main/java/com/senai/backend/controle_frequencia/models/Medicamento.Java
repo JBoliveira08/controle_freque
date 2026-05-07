@@ -33,4 +33,52 @@ public class Medicamento {
     @Column(name="condições_armazenamento")
     private LocalDate dataNascimento;
 
+    
+     public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getnome() {
+        return nome;
+    }
+
+    public void setnome(String nome) {
+        this.nome = nome;
+    }
+
+      public String getlote() {
+        return lote;
+    }
+
+    public void setlote(String lote) {
+        this.lote = lote;
+    }
+
+      public String getvalidade() {
+        return validade;
+    }
+
+    public void setvalidade(String validade) {
+        this.validade = validade;
+    }
+
+      public String gettipo() {
+        return tipo;
+    }
+
+    public void settipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getcondicoes_armazenamento() {
+        return condicoes_armazenamento;
+    }
+
+    public void setcondicoes_armazenamento(String condicoes_armazenamento) {
+        this.condicoes_armazenamento = condicoes_armazenamento;
+    }
 }

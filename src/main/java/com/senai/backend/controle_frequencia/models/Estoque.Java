@@ -23,4 +23,29 @@ public class Estoque {
 
     @Column(name="quantidade")
     private String quantidade;
+
+     public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getvalidade() {
+        return validade;
+    }
+
+    public void setvalidade(String validade) {
+        this.validade = validade;
+    }
+
+    public String getquantidade() {
+        return quantidade;
+    }
+
+    public void setquantidade(String quantidade) {
+        this.quantidade = quantidade;
+    }
+
 }
